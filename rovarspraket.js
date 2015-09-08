@@ -54,7 +54,7 @@ console.assert(isNaN(maxOfThree("aaa","bbb","ccc")));
 
 function isVowel(char){
     // YOUR CODE HERE
-    // pd: use indexOf for vowels to simplify
+    
     
     if((char==="A")||(char==="a")||(char==="E")||(char==="e")||(char==="I")||(char==="i")||(char==="O")||(char==="o")||(char==="U")||(char==="u")) return true
     else return false
@@ -81,7 +81,7 @@ console.assert(isVowel("E") === true);
 
 function rovarspraket(word){
     // YOUR CODE HERE
-    // pd: use indexOf for vowels to simplify AND FIGURE OUT INSTANCES WHERE WORD IS A NUMBER
+   
     var what = ""
 
     if(typeof word === 'number'){
